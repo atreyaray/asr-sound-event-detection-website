@@ -9,7 +9,7 @@ from audio import AudioUtil
 from model import AudioClassifier
 import torchaudio
 
-# streamlit run Website/main.py
+# streamlit run main.py
 
 
 def load_model(model_path, map_location):

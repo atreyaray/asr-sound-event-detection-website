@@ -1,0 +1,6 @@
+audio_recorder_streamlit==0.0.4
+matplotlib==3.6.2
+numpy==1.23.5
+streamlit==1.15.2
+torch==1.13.0
+torchaudio==0.13.0
