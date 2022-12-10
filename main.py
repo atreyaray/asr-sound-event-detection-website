@@ -83,7 +83,7 @@ if audio_bytes:
     # call end to end
     # get the absolute path of the current directory 
     dir = os.path.dirname(__file__)
-    model = load_model(dir + '/cnn-200.pt', map_location=torch.device('cpu'))
+    model = load_model(dir + '/cnn-400.pt', map_location=torch.device('cpu'))
     s = endtoend(model, "audio.wav")
     st.write(f"I think this is the sound of a {sounds(s)}")
 
